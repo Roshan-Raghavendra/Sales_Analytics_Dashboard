@@ -2,14 +2,20 @@
 
 An end-to-end sales analytics portfolio project built with **SQL Server, Power BI, and DAX**. The project explores sales, profitability, customers, products, regions, categories, and returns through SQL analysis and interactive Power BI reports.
 
-## Dashboard
+## Dashboard preview
+
+### Executive Dashboard
+
+![Executive Dashboard](screenshots/Screenshot%202026-10-10%20132525.png)
+
+### Detailed Analysis
+
+![Detailed Analysis](screenshots/Screenshot%202026-10-10%20132536.png)
 
 The Power BI report contains two pages:
 
 - **Executive Dashboard** — KPI cards, monthly sales and profit trend, sales by region and category, top customers, loss-making products, and Region/Category/Segment slicers.
 - **Detailed Analysis** — sales and profit by sub-category, customer and product analysis, return-rate KPI, and regional manager information.
-
-Open the screenshots in the [screenshots](./screenshots) folder to preview the report.
 
 ## Technology stack
 
@@ -50,7 +56,7 @@ The Power BI model relates order data to returns by Order ID and regional manage
 
 - `powerbi/` — Power BI report (`.pbix`)
 - `screenshots/` — dashboard screenshots
-- `sql/` — SQL scripts and supporting notes (to be added/organized)
+- `sql/sales_analytics_views.sql` — analytical views and KPI validation queries
 
 ## How to view
 
